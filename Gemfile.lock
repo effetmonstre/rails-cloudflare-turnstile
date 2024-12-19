@@ -311,6 +311,7 @@ PLATFORMS
   aarch64-linux
   arm64-darwin-22
   arm64-darwin-23
+  arm64-darwin-24
   x86_64-darwin-21
   x86_64-linux
 
@@ -320,7 +321,7 @@ DEPENDENCIES
   faraday (>= 1.0, < 3.0)
   mutex_m
   pry (~> 0.15.0)
-  rails (>= 6, < 8)
+  rails (>= 6, < 9)
   rails_cloudflare_turnstile!
   rake (~> 13.2)
   rspec (~> 3.13)
@@ -331,4 +332,4 @@ DEPENDENCIES
   webmock (~> 3.24)
 
 BUNDLED WITH
-   2.5.9
+   2.6.1
